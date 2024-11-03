@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Greenovation-Polusi Udara</title>
+   <!-- link css -->
+   <link rel="stylesheet" href="polusiudara.css">
+   <!-- bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- link icon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- swiper js -->
+   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!-- AOS Library -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- logo -->
+   <link rel="icon" href="img/logo (1).png" type="image/x-icon">
+</head>
+<body style="background-color: #000;">
+
+     <!-- modal login start -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-mail-fill"></i></span>
+                    <input type="email" placeholder="Gmail" required>
+                  </div>
+    
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                      <input type="password" placeholder="Password" required>
+                    </div>
+    
+                  <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                      <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btnlog">Login</button>
+                  <a href="#" class="btnlgggl text-light"><i class="ri-google-fill"></i>Login With Google</a>
+                  
+                  <div class="login-register">
+                    <p>Don't have a account?<a href="#" class="register-link"> Register</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <!-- modal end -->
+
+     <!-- header  -->
+     <section class="#header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container-fluid ror">
+           <a class="navbar-brand fw-bold fs-4 text-light" href="#">
+           Greenovation
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: white;">
+            <span class="navbar-toggler-icon" style="background-color: white; color: white;"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                 <a class="nav-link active text-light" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Information
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item text-dark" href="sampahpelastik.html">Sampah Pelastik</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiudara.html">Polusi Udara</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiair.html">Polusi Air</a></li>
+                  </ul>
+                </li>
+               <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="ri-user-3-fill" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
+                </a>
+              </li>  
+             </ul>
+           </div>
+      </nav>
+     </section>
+     <!-- tutup header -->
+
+     <!-- hero section start -->
+     <section class="hero">
+      <div class="container-fluid mt-5">
+        <div class="container py-5">
+          <h1 class="fw-bold text-center">Polusi Udara</h1>
+          <p class="text-center mt-3">pencemaran yang terjadi ketika zat berbahaya seperti gas, partikel, dan senyawa kimia masuk ke atmosfer, sehingga mengganggu kualitas udara dan membahayakan kesehatan makhluk hidup serta lingkungan</p>
+          <div class="btn-hero d-flex justify-content-center">
+            <a href="#penyebab" class="">
+              <button type="button" class="btn btn-light btn-lg rounded-pill lol">Telusuri</button>
+            </a>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- hero section end -->
+     
+     <!--penyebab start-->
+     <section class="penyebab" id="penyebab">
+      <div class="container-fluid">
+        <div class="container">
+          <video autoplay data-aos="fade-down" data-aos-duration="1500">
+            <source src="img/yeu.mp4" type="video/mp4">
+          </video>
+
+          <div class="row g-4 mt-4">
+            <h2 data-aos="fade-down" data-aos-duration="1500">Mengapa Polusi <span>Udara</span> Menjadi Masalah?</h2>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Emisi Kendaraan Bermotor</h4>
+                <p>Asap dari kendaraan bermotor mengandung karbon monoksida, nitrogen oksida, dan hidrokarbon yang mencemari udara dan berkontribusi pada kualitas udara yang buruk.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Industri dan Pabrik</h4>
+                <p>Banyak industri menghasilkan gas beracun seperti sulfur dioksida dan partikel debu sebagai hasil pembakaran bahan bakar fosil, yang mencemari udara secara signifikan.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Pembakaran Sampah</h4>
+                <p>Pembakaran sampah atau pembukaan lahan dengan membakar hutan menghasilkan asap dan partikel yang mencemari udara dan memperburuk kualitas lingkungan.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Kegiatan Rumah Tangga</h4>
+                <p>Penggunaan produk seperti aerosol, cat, dan pestisida di rumah melepaskan bahan kimia yang menambah polusi udara dalam skala yang lebih kecil namun tetap berbahaya.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+     <!--penyebab end-->
+
+     <!-- dampak start -->
+     <section class="dampak">
+      <div class="container-fluid mt-2">
+        <div class="container py-5">
+
+          <h2 class="py-4" data-aos="fade-down" data-aos-duration="1500">Konsekuensi Polusi <span>Udara</span> Terhadap Dunia</h2>
+          <div class="row" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex" =>
+              <img src="img/ret (1).png" class="img-fluid">
+              <img src="img/ret (2).png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+             <h4>Gangguan Kesehatan</h4>
+             <p>Polusi udara berkontribusi pada masalah kesehatan serius, mulai dari iritasi saluran pernapasan hingga penyakit kronis seperti asma, bronkitis, dan kanker paru-paru. Polusi ini juga meningkatkan risiko gangguan jantung dan penyakit lainnya yang disebabkan oleh paparan jangka panjang terhadap zat berbahaya di udara.</p>
+            </div>
+          </div>
+    
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+              <h4>Perubahan Iklim</h4>
+              <p>Gas-gas seperti karbon dioksida dan metana yang terlepas dari polusi udara mempercepat efek rumah kaca, menyebabkan pemanasan global. Pemanasan ini memicu perubahan iklim ekstrem yang berdampak pada cuaca, menyebabkan banjir, kekeringan, dan perubahan pola curah hujan.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/ret (3).png" class="img-fluid">
+              <img src="img/ret (4).png" class="img-fluid">
+          </div>
+          </div>
+
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/ret (5).png" class="img-fluid">
+              <img src="img/ret (6).png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6">
+             <h4>Kerusakan Ekosistem</h4>
+             <p>Polusi udara dapat merusak lingkungan, terutama dengan mempercepat keasaman tanah dan air melalui hujan asam. Hal ini mengganggu pertumbuhan tumbuhan, mencemari sumber air, dan mengurangi keanekaragaman hayati, yang akhirnya mempengaruhi keseimbangan ekosistem.</p>
+            </div>
+          </div>
+
+      </div>
+     </section>
+     <!-- dampak end -->
+
+     <!-- pencegahan start -->
+     <section class="pencegahan">
+      <div class="container-fluid py-2">
+        <div class="container">
+          <h2 data-aos="fade-down" data-aos-duration="1500">Upaya Global untuk Meminimalkan Polusi <span>Udara</span></h2>
+          <div class="row mt-5" data-aos="fade-down" data-aos-duration="1500">
+
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card op">
+                <div class="details">
+                <div class="cardHeader">Mengurangi</div>
+                 <div class="cardText">
+                  Gunakan transportasi umum, berjalan kaki, atau bersepeda untuk mengurangi emisi kendaraan. Ini membantu menurunkan polutan seperti karbon monoksida dan nitrogen oksida yang dilepaskan ke udara.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card up">
+                <div class="details">
+                <div class="cardHeader">Mendukung</div>
+                 <div class="cardText">
+                  Beralih ke sumber energi ramah lingkungan seperti tenaga surya, angin, atau hidroelektrik membantu mengurangi ketergantungan pada bahan bakar fosil yang menghasilkan polutan udara.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card ep">
+                <div class="details">
+                <div class="cardHeader">Menanam dan Merawat</div>
+                 <div class="cardText">
+                  Pohon dapat menyerap karbon dioksida dan menghasilkan oksigen. Menanam pohon dan menjaga ruang hijau membantu meningkatkan kualitas udara dan mengurangi dampak polusi.
+                 </div>
+                 <div class="cin">
+                   <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- pencegahan end -->
+
+     <!-- footer start -->
+     <section class="footer">
+        <div class="container-fluid mt-5">
+          <div class="container py-5">
+            <div class="row">
+
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h3 class="fw-bold">Greenovation</h3>
+                <p>Menggunakan teknologi untuk mengubah dunia menjadi hijau dan berkelanjutan</p>
+                <br>
+                <h5 class="">Get News & Update</h5>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-success" type="reset" id="button-addon2">Button</button>
+                </div>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">More Info</h5>
+                <h6><a href=""></a>About</h6>
+                <h6><a href=""></a>Blog</h6>
+                <h6><a href=""></a>Information</h6>
+                <h6><a href=""></a>Contact</h6>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Support</h5>
+                <h6><a href=""></a>FAQS</h6>
+                <h6><a href=""></a>Shipping & Returns</h6>
+                <h6><a href=""></a>Contact</h6>
+                <h6><a href=""></a>Our Partners</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Reach Us</h5>
+                <i class="ri-send-plane-fill"></i>
+                <span>Jln Raya Kampus Unud No 19, Bali - Indonesi</span>
+                <br>
+                <br>
+                <i class="ri-phone-line"></i>
+                <span>+1104.0911.2604</span>
+              </div>
+            </div>
+
+            <div class="container-fluid mt-5">
+              <div class="container d-flex justify-content-center">
+                <h6>Copyright © 2024 <span class="fw-bold">Greenovation</span>, All rights reserved. Present by <span class="fw-bold">MeiYan</span></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+     </section>
+     <!-- footer end -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+     </script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const dampakCarousel = document.getElementById('dampakCarousel');
+      const captionTitle = document.getElementById('caption-title');
+      const captionText = document.getElementById('caption-text');
+    
+      dampakCarousel.addEventListener('slide.bs.carousel', function (event) {
+        const activeItem = event.relatedTarget;
+        const title = activeItem.getAttribute('data-caption-title');
+        const text = activeItem.getAttribute('data-caption-text');
+    
+        captionTitle.innerText = title;
+        captionText.innerText = text;
+      });
+    </script>
+<script src="script.js"></script>
+</body>
+</html>

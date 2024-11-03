@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Greenovation- Sampah Pelastik</title>
+   <!-- link css -->
+   <link rel="stylesheet" href="sampahpelastik.css">
+   <!-- bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- link icon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- swiper js -->
+   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!-- AOS Library -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- logo -->
+   <link rel="icon" href="img/logo (1).png" type="image/x-icon">
+</head>
+<body style="background-color: #000;">
+
+     <!-- modal login start -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-mail-fill"></i></span>
+                    <input type="email" placeholder="Gmail" required>
+                  </div>
+    
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                      <input type="password" placeholder="Password" required>
+                    </div>
+    
+                  <div class="remember-forgot text-dark">
+                    <label><input type="checkbox">Remember me</label>
+                      <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btnlog">Login</button>
+                  <a href="#" class="btnlgggl text-light"><i class="ri-google-fill"></i>Login With Google</a>
+                  
+                  <div class="login-register text-dark">
+                    <p style="color: #000;">>Don't have a account?<a href="#" class="register-link"> Register</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <!-- modal end -->
+
+     <!-- header  -->
+     <section class="#header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container-fluid ror">
+           <a class="navbar-brand fw-bold fs-4 text-light" href="#">
+           Greenovation
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: white;">
+            <span class="navbar-toggler-icon" style="background-color: white; color: white;"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                 <a class="nav-link active text-light" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Information
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item text-dark" href="sampahpelastik.html">Sampah Pelastik</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiudara.html">Polusi Udara</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiair.html">Polusi Air</a></li>
+                  </ul>
+                </li>
+               <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="ri-user-3-fill" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
+                </a>
+              </li>  
+             </ul>
+           </div>
+      </nav>
+     </section>
+     <!-- tutup header -->
+
+     <!-- hero section start -->
+     <section class="hero">
+      <div class="container-fluid mt-5">
+        <div class="container py-5">
+          <h1 class="fw-bold text-center">Sampah Pelastik</h1>
+          <p class="text-center mt-3"> limbah dari produk berbahan <span>Plastik</span> yang dibuang setelah digunakan, seperti botol, kantong plastik, dan kemasan makanan. Karena sulit terurai, sampah ini menjadi ancaman besar bagi lingkungan—mencemari tanah, air, dan laut, serta menghasilkan <span>mikroplastik</span> yang bisa membahayakan kesehatan makhluk hidup</p>
+          <div class="btn-hero d-flex justify-content-center">
+            <a href="#penyebab" class="">
+              <button type="button" class="btn btn-light btn-lg rounded-pill lol">Telusuri</button>
+            </a>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- hero section end -->
+     
+     <!--penyebab start-->
+     <section class="penyebab" id="penyebab">
+      <div class="container-fluid">
+        <div class="container">
+         <video autoplay data-aos="fade-down" data-aos-duration="1500">
+          <source src="img/poy.mp4" type="video/mp4">
+         </video>
+          <div class="row g-4 mt-4">
+            <h2 data-aos="fade-down" data-aos-duration="1500">Mengapa Sampah <span>Plastik</span> Menjadi Masalah?</h2>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Konsumsi Plastik Sekali Pakai yang Berlebihan</h4>
+                <p>Produk sekali pakai, seperti botol minuman, kantong belanja, dan sedotan, banyak digunakan. Namun, barang-barang ini sering dibuang langsung setelah satu kali pakai, menambah jumlah sampah plastik di lingkungan.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Infrastruktur Daur Ulang yang Kurang Memadai</h4>
+                <p>Di banyak daerah, fasilitas daur ulang masih terbatas atau masih sulit diakses, sehingga sampah plastik yang seharusnya bisa didaur ulang malah menumpuk di tempat pembuangan atau mencemari alam.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Kurangnya Kesadaran Masyarakat</h4>
+                <p>Rendahnya kesadaran tentang pengelolaan sampah plastik membuat kebiasaan membuang sampah sembarangan masih banyak terjadi. Akibatnya, sampah plastik mudah menyebar dan mencemari lingkungan.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Ketergantungan Industri pada Kemasan Plastik</h4>
+                <p>Banyak industri masih menggunakan plastik untuk kemasan karena ekonomis dan tahan lama, tapi kurangnya alternatif kemasan ramah lingkungan justru memperparah jumlah sampah plastik yang sulit terurai.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+     <!--penyebab end-->
+
+     <!-- dampak start -->
+     <section class="dampak">
+      <div class="container-fluid mt-2">
+        <div class="container py-5">
+
+          <h2 class="py-4" data-aos="fade-down" data-aos-duration="1500">Konsekuensi Sampah <span>Plastik</span> Terhadap Dunia</h2>
+          <div class="row" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex" data-aos="fade-down" data-aos-duration="1500">
+              <img src="img/cihuy (8).png" class="img-fluid">
+              <img src="img/po (4).png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+             <h4>Pencemaran Lingkungan</h4>
+             <p>Plastik yang tidak terurai secara alami mencemari tanah, sungai, dan laut. Partikel plastik sering kali terpecah menjadi mikroplastik yang menyebar luas dan mengendap di ekosistem alami, merusak habitat dan mengurangi kualitas tanah dan air.</p>
+            </div>
+          </div>
+    
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+              <h4>Bahaya bagi Kehidupan Laut</h4>
+              <p>Hewan laut sering kali mengira plastik sebagai makanan. Ketika tertelan, plastik dapat menyebabkan penyumbatan saluran pencernaan dan kematian. Jaring plastik juga bisa menjebak ikan, kura-kura, dan hewan laut lainnya, membahayakan kehidupan laut secara keseluruhan.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/bun (3)copy.jpg" class="img-fluid">
+              <img src="img/7.png" class="img-fluid">
+          </div>
+          </div>
+
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/cihuy (7).png" class="img-fluid">
+              <img src="img/bun (1)copy.jpg" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6">
+             <h4>Masalah Kesehatan Manusia</h4>
+             <p>Mikroplastik telah ditemukan dalam makanan dan air yang kita konsumsi. Paparan mikroplastik dapat menyebabkan gangguan kesehatan, karena plastik mengandung bahan kimia berbahaya yang, jika terakumulasi di dalam tubuh, bisa berdampak pada sistem pernapasan, reproduksi, dan endokrin.</p>
+            </div>
+          </div>
+
+      </div>
+     </section>
+     <!-- dampak end -->
+
+     <!-- pencegahan start -->
+     <section class="pencegahan">
+      <div class="container-fluid py-2">
+        <div class="container">
+          <h2 data-aos="fade-down" data-aos-duration="1500">Upaya Global untuk Meminimalkan Sampah <span>Plastik</span></h2>
+          
+          <div class="row mt-5" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card op">
+                <div class="details">
+                <div class="cardHeader">Reduce</div>
+                 <div class="cardText">
+                  Kurangi penggunaan plastik sekali pakai dengan memilih alternatif yang lebih ramah lingkungan, seperti tas belanja yang dapat digunakan kembali.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card up">
+                <div class="details">
+                <div class="cardHeader">Reuse</div>
+                 <div class="cardText">
+                  Gunakan kembali barang plastik sebelum membuangnya, seperti menggunakan botol plastik untuk menyimpan barang atau makanan.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card ep">
+                <div class="details">
+                <div class="cardHeader">Recycle</div>
+                 <div class="cardText">
+                  Daur ulang plastik dengan memisahkan dan membersihkan sampah plastik agar dapat diolah menjadi produk baru, mengurangi jumlah plastik yang terbuang.
+                 </div>
+                 <div class="cin">
+                   <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- pencegahan end -->
+
+     <!-- footer start -->
+     <section class="footer">
+        <div class="container-fluid mt-5">
+          <div class="container py-5">
+            <div class="row">
+
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h3 class="fw-bold">Greenovation</h3>
+                <p>Menggunakan teknologi untuk mengubah dunia menjadi hijau dan berkelanjutan</p>
+                <br>
+                <h5 class="">Get News & Update</h5>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-success" type="reset" id="button-addon2">Button</button>
+                </div>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">More Info</h5>
+                <h6><a href=""></a>About</h6>
+                <h6><a href=""></a>Blog</h6>
+                <h6><a href=""></a>Information</h6>
+                <h6><a href=""></a>Contact</h6>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Support</h5>
+                <h6><a href=""></a>FAQS</h6>
+                <h6><a href=""></a>Shipping & Returns</h6>
+                <h6><a href=""></a>Contact</h6>
+                <h6><a href=""></a>Our Partners</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Reach Us</h5>
+                <i class="ri-send-plane-fill"></i>
+                <span>Jln Raya Kampus Unud No 19, Bali - Indonesi</span>
+                <br>
+                <br>
+                <i class="ri-phone-line"></i>
+                <span>+1104.0911.2604</span>
+              </div>
+            </div>
+
+            <div class="container-fluid mt-5">
+              <div class="container d-flex justify-content-center">
+                <h6>Copyright © 2024 <span class="fw-bold">Greenovation</span>, All rights reserved. Present by <span class="fw-bold">MeiYan</span></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+     </section>
+     <!-- footer end -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+     </script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const dampakCarousel = document.getElementById('dampakCarousel');
+      const captionTitle = document.getElementById('caption-title');
+      const captionText = document.getElementById('caption-text');
+    
+      dampakCarousel.addEventListener('slide.bs.carousel', function (event) {
+        const activeItem = event.relatedTarget;
+        const title = activeItem.getAttribute('data-caption-title');
+        const text = activeItem.getAttribute('data-caption-text');
+    
+        captionTitle.innerText = title;
+        captionText.innerText = text;
+      });
+    </script>
+<script src="script.js"></script>
+</body>
+</html>

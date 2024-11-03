@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Greenovation-Polusi Air</title>
+   <!-- link css -->
+   <link rel="stylesheet" href="polusiair.css">
+   <!-- bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- link icon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- swiper js -->
+   <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   <!-- AOS Library -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- logo -->
+   <link rel="icon" href="img/logo (1).png" type="image/x-icon">
+</head>
+<body style="background-color: #000;">
+
+     <!-- modal login start -->
+     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-mail-fill"></i></span>
+                    <input type="email" placeholder="Gmail" required>
+                  </div>
+    
+                  <div class="input-box">
+                    <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                      <input type="password" placeholder="Password" required>
+                    </div>
+    
+                  <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me</label>
+                      <a href="#">Forgot Password?</a>
+                  </div>
+                  <button type="submit" class="btnlog">Login</button>
+                  <a href="#" class="btnlgggl text-light"><i class="ri-google-fill"></i>Login With Google</a>
+                  
+                  <div class="login-register">
+                    <p>Don't have a account?<a href="#" class="register-link"> Register</a></p>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <!-- modal end -->
+
+     <!-- header  -->
+     <section class="#header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+         <div class="container-fluid ror">
+           <a class="navbar-brand fw-bold fs-4 text-light" href="#">
+           Greenovation
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: white;">
+            <span class="navbar-toggler-icon" style="background-color: white; color: white;"></span>
+          </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav ms-auto">
+               <li class="nav-item">
+                 <a class="nav-link active text-light" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="about.html">About</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Information
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item text-dark" href="sampahpelastik.html">Sampah Pelastik</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiudara.html">Polusi Udara</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-dark" href="polusiair.html">Polusi Air</a></li>                   
+                  </ul>
+                </li>
+               <li class="nav-item">
+                <a class="nav-link" href="product.html">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="ri-user-3-fill" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
+                </a>
+              </li>  
+             </ul>
+           </div>
+      </nav>
+     </section>
+     <!-- tutup header -->
+
+     <!-- hero section start -->
+     <section class="hero">
+      <div class="container-fluid mt-5">
+        <div class="container py-5">
+          <h1 class="fw-bold text-center">Polusi Air</h1>
+          <p class="text-center mt-3">pencemaran sumber air oleh limbah dan bahan kimia berbahaya. Ini mengancam ekosistem dan kesehatan manusia. Penyebab utamanya adalah pembuangan <span>limbah</span> dan penggunaan <span>pestisida</span> berlebihan.</p>
+          <div class="btn-hero d-flex justify-content-center">
+            <a href="#penyebab" class="">
+              <button type="button" class="btn btn-light btn-lg rounded-pill lol">Telusuri</button>
+            </a>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- hero section end -->
+     
+     <!--penyebab start-->
+     <section class="penyebab" id="penyebab">
+      <div class="container-fluid">
+        <div class="container">
+          <video autoplay data-aos="fade-down" data-aos-duration="1500">
+            <source src="img/polusi air.mp4" type="video/mp4">
+          </video>
+
+          <div class="row g-4 mt-4">
+            <h2>Mengapa Polusi <span>Air</span> Menjadi Masalah?</h2>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Pembuangan Limbah Industri</h4>
+                <p>Banyak industri membuang limbah berbahaya ke sungai dan danau tanpa pengolahan yang memadai. Zat kimia beracun, logam berat, dan bahan berbahaya lainnya dapat mencemari sumber air.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Pertanian dan Penggunaan Pupuk</h4>
+                <p>Penggunaan pupuk dan pestisida secara berlebihan dalam pertanian dapat menyebabkan run-off yang mengalir ke badan air. Bahan kimia ini mengandung nutrisi berlebih yang dapat menyebabkan eutrofikasi.</p>
+              </div>
+              </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Sampah dan Limbah Rumah Tangga</h4>
+                <p>Pembuangan sampah secara sembarangan, seperti plastik dan limbah organik atau pabrik, ke dalam sungai atau laut dapat mencemari air. Bahan-bahan ini dapat menyumbat saluran air dan merusak kehidupan akuatik.</p>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3">
+              <div class="card py-3 px-3">
+                <h4>Tumpahan Minyak ke Lautan</h4>
+                <p>Kecelakaan tanker minyak atau kebocoran dari fasilitas penyimpanan dapat menyebabkan tumpahan minyak ke lautan. Minyak mencemari air dan membahayakan kehidupan laut serta ekosistem pesisir.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     </section>
+     <!--penyebab end-->
+
+     <!-- dampak start -->
+     <section class="dampak">
+      <div class="container-fluid mt-2">
+        <div class="container py-5">
+
+          <h2 class="py-4" data-aos="fade-down" data-aos-duration="1500">Konsekuensi Polusi <span>Air</span> Terhadap Dunia</h2>
+          <div class="row" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex" data-aos="fade-down" data-aos-duration="1500">
+              <img src="img/ret (5).png" class="img-fluid">
+              <img src="img/ret (6).png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+             <h4>Kerusakan Ekosistem</h4>
+             <p>Polusi air dapat merusak habitat alami bagi hewan dan tumbuhan, mengganggu rantai makanan, dan mengurangi keanekaragaman hayati. Organisme air, seperti ikan dan plankton, sangat rentan terhadap zat berbahaya, yang dapat menyebabkan penurunan populasi spesies.</p>
+            </div>
+          </div>
+    
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6" data-aos="fade-down" data-aos-duration="1500">
+              <h4>Masalah Kesehatan</h4>
+              <p>Air yang tercemar dapat menyebabkan berbagai penyakit, termasuk diare, kolera, dan infeksi kulit. Paparan kontaminan dalam air minum dapat mengancam kesehatan masyarakat, terutama di daerah dengan sanitasi yang buruk.</p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/jui (3).png" class="img-fluid">
+              <img src="img/jui (4).png" class="img-fluid">
+          </div>
+          </div>
+
+          <div class="row mt-3" data-aos="fade-down" data-aos-duration="1500">
+            <div class="col-sm-12 col-md-6 col-xl-6 d-flex">
+              <img src="img/jui (1).png" class="img-fluid">
+              <img src="img/jui (2).png" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 col-xl-6">
+             <h4>Penurunan Kualitas Air</h4>
+             <p>Polusi mengurangi kualitas air, menjadikannya tidak layak untuk minum, mandi, atau keperluan sehari-hari lainnya. Penggunaan air yang terkontaminasi dapat mengakibatkan risiko kesehatan dan dampak negatif pada kegiatan sehari-hari.</p>
+            </div>
+          </div>
+
+      </div>
+     </section>
+     <!-- dampak end -->
+
+     <!-- pencegahan start -->
+     <section class="pencegahan">
+      <div class="container-fluid py-2">
+        <div class="container">
+          <h2 data-aos="fade-down" data-aos-duration="1500">Upaya Global untuk Meminimalkan Polusi <span>Air</span></h2>
+          <div class="row mt-5" data-aos="fade-down" data-aos-duration="1500">
+
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card op">
+                <div class="details">
+                <div class="cardHeader">Pengolahan</div>
+                 <div class="cardText">
+                  Limbah industri dan domestik harus dikelola dengan sistem pengolahan terintegrasi. Ini melibatkan penyaringan dan penanganan limbah agar air yang dibuang sudah bebas kontaminan.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card up">
+                <div class="details">
+                <div class="cardHeader">Pengurangan</div>
+                 <div class="cardText">
+                  Mengurangi penggunaan bahan kimia yang mencemari, terutama di pertanian dengan memilih alternatif ramah lingkungan seperti pestisida dan pupuk organik.
+                 </div>
+                 <div class="cin">
+                  <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-xl-4 mt-5 mt-md-5 mt-xl-0">             
+              <div class="card ep">
+                <div class="details">
+                <div class="cardHeader">Penanaman</div>
+                 <div class="cardText">
+                  Menanam vegetasi di tepi sungai dan danau dapat membantu menyaring dan menyerap limbah alami sebelum mencapai perairan utama, sehingga mencegah pencemaran air.
+                 </div>
+                 <div class="cin">
+                   <a href="#"><button type="button" class="btn btn-pwis rounded-4">Tutorial</button></a>
+                 </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+     <!-- pencegahan end -->
+
+     <!-- footer start -->
+     <section class="footer">
+        <div class="container-fluid mt-5">
+          <div class="container py-5">
+            <div class="row">
+
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h3 class="fw-bold">Greenovation</h3>
+                <p>Menggunakan teknologi untuk mengubah dunia menjadi hijau dan berkelanjutan</p>
+                <br>
+                <h5 class="">Get News & Update</h5>
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-outline-success" type="reset" id="button-addon2">Button</button>
+                </div>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">More Info</h5>
+                <h6><a href=""></a>About</h6>
+                <h6><a href=""></a>Blog</h6>
+                <h6><a href=""></a>Information</h6>
+                <h6><a href=""></a>Contact</h6>
+              </div>
+              <div class="yow col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Support</h5>
+                <h6><a href=""></a>FAQS</h6>
+                <h6><a href=""></a>Shipping & Returns</h6>
+                <h6><a href=""></a>Contact</h6>
+                <h6><a href=""></a>Our Partners</h6>
+              </div>
+              <div class="col-sm-12 col-md-6 col-xl-3">
+                <h5 class="fw-bold">Reach Us</h5>
+                <i class="ri-send-plane-fill"></i>
+                <span>Jln Raya Kampus Unud No 19, Bali - Indonesi</span>
+                <br>
+                <br>
+                <i class="ri-phone-line"></i>
+                <span>+1104.0911.2604</span>
+              </div>
+            </div>
+
+            <div class="container-fluid mt-5">
+              <div class="container d-flex justify-content-center">
+                <h6>Copyright © 2024 <span class="fw-bold">Greenovation</span>, All rights reserved. Present by <span class="fw-bold">MeiYan</span></h6>
+              </div>
+            </div>
+
+          </div>
+        </div>
+     </section>
+     <!-- footer end -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+     </script>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      const dampakCarousel = document.getElementById('dampakCarousel');
+      const captionTitle = document.getElementById('caption-title');
+      const captionText = document.getElementById('caption-text');
+    
+      dampakCarousel.addEventListener('slide.bs.carousel', function (event) {
+        const activeItem = event.relatedTarget;
+        const title = activeItem.getAttribute('data-caption-title');
+        const text = activeItem.getAttribute('data-caption-text');
+    
+        captionTitle.innerText = title;
+        captionText.innerText = text;
+      });
+    </script>
+<script src="script.js"></script>
+</body>
+</html>

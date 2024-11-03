@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Greenovation-Blog 1</title>
+   <!-- link css -->
+   <link rel="stylesheet" href="blog.css">
+   <!-- bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+   <!-- link icon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- AOS Library -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- logo -->
+   <link rel="icon" href="img/logo (1).png" type="image/x-icon">
+</head>
+<body>
+  
+   <!-- modal ogin start -->
+   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-box login">
+              <h2>Login</h2>
+              <form action="#">
+                <div class="input-box">
+                  <span class="icon"><i class="ri-mail-fill"></i></span>
+                  <input type="email" placeholder="Gmail" required>
+                </div>
+  
+                <div class="input-box">
+                  <span class="icon"><i class="ri-lock-2-fill"></i></span>
+                    <input type="password" placeholder="Password" required>
+                  </div>
+  
+                <div class="remember-forgot">
+                  <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btnlog">Login</button>
+                <a href="#" class="btnlgggl text-light"><i class="ri-google-fill"></i>Login With Google</a>
+                
+                <div class="login-register">
+                  <p>Don't have a account?<a href="#" class="register-link"> Register</a></p>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+   <!-- modal end -->
+
+   <!-- header  -->
+   <section class="#header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+       <div class="container-fluid ror">
+         <a class="navbar-brand fw-bold fs-4 text-light" href="#">
+         Greenovation
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: white;">
+          <span class="navbar-toggler-icon" style="background-color: white; color: white;"></span>
+        </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+           <ul class="navbar-nav ms-auto">
+             <li class="nav-item">
+               <a class="nav-link active text-light" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="about.html">About</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Information
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item text-dark" href="sampahpelastik.html">Sampah Pelastik</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-dark" href="polusiudara.html">Polusi Udara</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item text-dark" href="polusiair.html">Polusi Air</a></li>
+                </ul>
+              </li>
+             <li class="nav-item">
+              <a class="nav-link" href="product.html">Product</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="ri-user-3-fill" data-bs-toggle="modal" data-bs-target="#staticBackdrop"></i>
+              </a>
+            </li>  
+           </ul>
+         </div>
+    </nav>
+   </section>
+   <!-- tutup header -->
+
+   <section class="blog">
+      <div class="container-fluid">
+         <div class="container py-2 mt-3">
+            <h2 class="text-center lo" data-aos="fade-right" data-aos-duration="1500">Latest Blog</h2>
+            <p class="text-center lo" data-aos="fade-left" data-aos-duration="1500">Recent blogs about environment and nature</p>
+            <div class="row g-4 mt-2" data-aos="fade-down" data-aos-duration="1500">
+               <!-- Blog Item Template -->
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                   <div class="blog-item">
+                       <img src="img/cihuy (4).png" class="img-fluid" alt="Blog Image">
+                       <div class="blog-text">
+                           <span>20 January, 2020</span>
+                           <h2>Sampah Makanan: Dampak dan Cara Menguranginya</h2>
+                           <p>Menggali masalah sampah makanan dan bagaimana individu dan restoran dapat berkontribusi untuk menguranginya...</p>
+                           <a href="blog-details.html">Read More</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (5).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Kesadaran Lingkungan: Pentingnya Edukasi Sejak Dini</h2>
+                         <p>Menjelaskan mengapa edukasi lingkungan harus dimulai sejak usia dini dan bagaimana sekolah dapat berperan dalam hal ini...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (6).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Krisis Air: Menghadapi Tantangan Ketersediaan Air Bersih</h2>
+                         <p>Membahas masalah ketersediaan air bersih di berbagai belahan dunia dan upaya yang dilakukan untuk mengatasi krisis ini...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (7).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Mengurangi Emisi Karbon: Peran Setiap Individu</h2>
+                         <p>Menjelaskan bagaimana setiap individu dapat berkontribusi dalam mengurangi emisi karbon melalui pilihan sehari-hari, seperti...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+            </div>
+
+            <div class="row g-4 py-3" data-aos="fade-down" data-aos-duration="1500">
+               <!-- Blog Item Template -->
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                   <div class="blog-item">
+                       <img src="img/cihuy (12).png" class="img-fluid" alt="Blog Image">
+                       <div class="blog-text">
+                           <span>20 January, 2020</span>
+                           <h2>Upaya Menjaga Bumi dengan Pertanian Berkelanjutan</h2>
+                           <p>Membahas konsep pertanian berkelanjutan dan bagaimana teknik ini dapat mengurangi dampak negatif terhadap...</p>
+                           <a href="blog-details.html">Read More</a>
+                       </div>
+                   </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (1).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Konservasi Energi: Cara Menghemat Energi di Rumah</h2>
+                         <p>Tips untuk menghemat energi di rumah, termasuk penggunaan peralatan efisien dan penerapan kebiasaan hemat energi...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (2).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Polusi Suara: Dampaknya pada Kesehatan Mental</h2>
+                         <p>Meneliti bagaimana polusi suara memengaruhi kesehatan mental dan fisik, serta cara-cara untuk mengurangi paparan...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-xl-3">
+                 <div class="blog-item">
+                     <img src="img/cihuy (3).png" class="img-fluid" alt="Blog Image">
+                     <div class="blog-text">
+                         <span>20 January, 2020</span>
+                         <h2>Inisiatif Lingkungan: Proyek yang Membuat Perubahan</h2>
+                         <p>Membahas berbagai proyek dan inisiatif lokal yang berhasil menjaga lingkungan dan memberi inspirasi kepada komunitas...</p>
+                         <a href="blog-details.html">Read More</a>
+                     </div>
+                 </div>
+               </div>
+             </div>
+
+             <nav aria-label="Page navigation example">
+               <ul class="pagination justify-content-center mt-3">
+                 <li class="page-item disabled">
+                   <a class="page-link">Previous</a>
+                 </li>
+                 <li class="page-item"><a class="page-link" href="blog.html">1</a></li>
+                 <li class="page-item active"><a class="page-link" href="blog1.html">2</a></li>
+                 <li class="page-item"><a class="page-link" href="blog2.html">3</a></li>
+                 <li class="page-item">
+                   <a class="page-link" href="blog2.html">Next</a>
+                 </li>
+               </ul>
+             </nav>
+         </div>
+      </div>
+   </section>
+
+   <!-- footer start -->
+   <section class="footer">
+          <div class="container-fluid pt-5">
+            <div class="container">
+              <div class="row">
+    
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                  <h3 class="fw-bold">Greenovation</h3>
+                  <p>Menggunakan teknologi untuk mengubah dunia menjadi hijau dan berkelanjutan</p>
+                  <br>
+                  <h5 class="">Get News & Update</h5>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-outline-success" type="reset" id="button-addon2">Button</button>
+                  </div>
+                </div>
+                <div class="yow col-sm-12 col-md-6 col-xl-3">
+                  <h5 class="fw-bold">More Info</h5>
+                  <h6><a href=""></a>About</h6>
+                  <h6><a href=""></a>Blog</h6>
+                  <h6><a href=""></a>Information</h6>
+                  <h6><a href=""></a>Contact</h6>
+                </div>
+                <div class="yow col-sm-12 col-md-6 col-xl-3">
+                  <h5 class="fw-bold">Support</h5>
+                  <h6><a href=""></a>FAQS</h6>
+                  <h6><a href=""></a>Shipping & Returns</h6>
+                  <h6><a href=""></a>Contact</h6>
+                  <h6><a href=""></a>Our Partners</h6>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                  <h5 class="fw-bold">Reach Us</h5>
+                  <i class="ri-send-plane-fill"></i>
+                  <span>Jln Raya Kampus Unud No 19, Bali - Indonesi</span>
+                  <br>
+                  <br>
+                  <i class="ri-phone-line"></i>
+                  <span>+1104.0911.2604</span>
+                </div>
+              </div>
+    
+              <div class="container-fluid mt-5">
+                <div class="container d-flex justify-content-center">
+                  <h6>Copyright © 2024 <span class="fw-bold">Greenovation</span>, All rights reserved. Present by <span class="fw-bold">MeiYan</span></h6>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+   </section>
+   <!-- footer end -->
+
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>
+   <script src="script.js"></script>
+</body>
+</html>   
